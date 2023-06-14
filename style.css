@@ -1,0 +1,515 @@
+* {
+  box-sizing: border-box;
+}
+
+h5{
+  font-size: 30px;
+}
+  /* CSS CODE FOR BACKGROUND IMAGE*/
+  body, html {
+    height: 100%;
+  }
+/*Home page background*/
+  .bg-image {
+    filter: blur(10);
+    -webkit-filter: blur(0px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* contact section background*/
+.bg-image4{
+  background-image: url("pics/contact.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(0px);
+
+  /* Full height */
+  size-adjust: auto;
+  padding-top: 400px;
+  padding-bottom: 0px;
+  position: relative;
+
+  /* Center and scale the image nicely */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* about section background*/
+.bg-image2{
+  /* The image used */
+  background-image: url("pics/buidling2.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(0px);
+  height: 100%;
+  size-adjust: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* about section text*/
+.about-text{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  position:fixed;
+  left: 15%;
+  right : 15%;
+}
+/* Medicine(service 1 pic)*/
+.bg-image5{
+  background-image: url("pics/mdeicine.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(0px);
+  size-adjust: auto;
+  padding-top: 400px;
+  padding-bottom: 0px;
+  position: relative;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Main page background*/
+.bg-image8{
+  background-image: url("pics/mainback.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(0px);
+  size-adjust: auto;
+  padding-top: 400px;
+  padding-bottom: 0px;
+  position: relative;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Main page text*/
+.bg-text-home{
+  border: 0px;
+  color: white;
+  text-shadow: 2px 2px 2px rgb(0 0 0);
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  size-adjust: auto;
+  padding-top: 240px;
+  padding-bottom: 0px;
+  text-align: center;
+  align-items: center;
+}
+/* banner text*/
+.bg-text2{
+  border: 0px;
+  color: white;
+  text-shadow: 2px 2px 2px rgb(0 0 0);
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  size-adjust: auto;
+  padding-top: 270px;
+  padding-bottom: 0px;
+  text-align: center;
+  align-items: center;
+}
+/* serveric main para text css*/
+.main-text2{
+  align-items: center;
+  text-align: justify;
+ padding: 150px;
+ padding-top: 0px !important;
+}
+/* service heading*/
+.main-text2 h1{
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: rgba(243, 97, 109, 0.854);
+  text-decoration-style: initial;
+  font-size: 50px;
+  color: #000000;
+}
+/* service para*/
+.main-text2 p{
+  text-align: left;
+   padding-right:200px ;
+  font-size: 20px;
+  color: #54595F;;
+}
+/* service list*/
+.main-text2 ul{
+  text-align: left;
+  font-size: 20px;
+  color: #54595F;
+}
+::marker {
+  color: rgb(5, 5, 5);
+  text-shadow: #e28484;
+}
+/* PAEDIATRICS IMAGE*/
+.bg-image6{
+  background-image: url("pics/pediatrics-concept-stethoscope-toy-light-background_441923-12005.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(0px);
+  size-adjust: auto;
+  padding-top: 400px;
+  padding-bottom: 0px;
+  position: relative;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Physiotherapyservice 1 pic)*/
+.bg-image7{
+  background-image: url("pics/physio1.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(0px);
+  size-adjust: auto;
+  padding-top: 400px;
+  padding-bottom: 0px;
+  position: relative;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* contact section text*/
+h7{
+  color: #ff0000; /* White text for headings */
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+.contacts{
+  text-align: left;
+  padding: 30px;
+}
+.contacts p{
+  color: #000000; /* White text for paragraphs */
+}
+.banner{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid;
+  border-radius: 2px;;
+  padding: 30px;
+}
+div {
+  display: block;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* DOCTERS TABLE */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+/* MAIN DETAIL */
+.headtop{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  box-sizing:content-box;
+  padding-right: 90px;
+  padding-left: 90px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 750px;
+  max-width: 1220px;
+  background: rgba(255, 255, 255, 0.616);
+  box-shadow: 0px -1px 11px -2px rgba(255, 255, 255, 0.671);
+  }
+/* CSS code for the top bar with contact number and social links */
+.topbar {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+  }
+  .topbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .topbar .contact {
+    font-size: 14px;
+    text-align: left;
+  }
+  .fa {
+    padding: 6px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+.fa:hover {
+        opacity: 0.7;
+      }
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-instagram
+      {
+        background: #125688;
+  color: white;
+      }
+  /* CSS code for the middle header with logo, hospital name, and navigation bar */
+  header {
+    background-color: rgba(243, 97, 109, 0.854);
+    border-bottom: 1px solid rgb(243 97 109 / 85%);
+  }
+  header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 7px;
+  }
+  header h1{
+    text-align: left;
+  }
+  header .hospital-name{
+    text-align: center;
+  }
+  header .logo {
+    width: 50px;
+    height: 50px;
+  }
+  header .hospital-name {
+    font-size: 35px;
+    margin: 0 20px;
+  }
+  header nav {
+    display: flex;
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0; 
+  }
+  header nav ul li {
+    margin-left: 20px;
+  }
+  header nav ul li :hover{
+      color:#ffffff;
+      border-bottom:2px solid rgb(255, 255, 255);
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  header p{
+    margin-right: auto;
+    text-align: left  ;
+    font-family:fantasy;
+    font-size: 35px;
+  }
+  /* CSS code for the dropdown menu */
+/* Dropdown Button */
+.dropbtn {
+    color: rgb(0, 0, 0);
+    padding: 16px 16px;
+    font-size: 18px;
+    border: none;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgba(243, 97, 109, 0.854);}
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;}
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    color: white;
+  }
+/* FOOTER ALL STYLING*/
+      .footer-info{
+        background-color: rgb(56, 55, 55);
+        display:flex;
+        justify-content: space-between;
+        padding: 20px;
+        position: relative;
+      }
+      .footer-info h1{
+        text-decoration: underline;
+        border-color: #333;
+        font-stretch:wider;
+        color: #fff;
+        text-align: left;
+        font-size: 20px;
+      }
+      .footer-info p {
+        color: #fff;
+        margin: 0;
+        font-size: 14px;
+      
+      }
+      .quick-feedback {
+        align-items:right;
+        border: 1px solid gray;
+        border-radius: 4px;
+        margin-top: 20px;
+        padding: 15px;
+      }
+      .quick-feedback h4 {
+        margin: 3;
+        color: #fff;
+        border-color: #333;
+        font-size: 18px;
+        text-align: center;
+      }
+      .quick-feedback form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .quick-feedback form label {
+        margin-bottom: 10px;
+        margin-top: 5px;
+        color: #fff;
+        font-size: 14px;
+      }
+      .quick-feedback form input[type="text"], .quick-feedback form textarea {
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid gray;
+        border-radius: 4px;
+        padding: 8px;
+        font-size: 14px;
+      }
+      .quick-feedback form input[type="submit"] {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid gray;
+        border-radius: 4px;
+        color: rgb(0, 0, 0);
+        padding: 16px 32px;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin-top: 12px;
+        cursor: pointer;
+      }
+      .quick-feedback form input[type="submit"] {
+        transition: background-color 0.5s ease;
+      }
+      .quick-feedback form input[type="submit"]:hover {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 253, 253);
+      }
+      /* Footer Quick line*/
+      footer .quick-links {
+        display: flex;
+        flex-direction: column;
+      }
+      footer .quick-links h3 {
+        color: #fff;
+        margin-bottom: 5px;
+        font-size: 18px;
+      }
+      footer .quick-links ul > li {
+        list-style: none;
+        padding: 9px 0;
+        border-top: 1px solid rgba(255,255,255,0.07);
+    }
+      footer .quick-links ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      footer .quick-links ul li {
+        margin-bottom: 10px;
+      }
+      footer .quick-links ul a {
+        color: #fff;
+        transition: all 0.3s ease;
+      }
+      footer .quick-links ul a:hover {
+        color: rgba(243, 97, 109, 0.854);
+      }
+      /* End */
+      .footer-info-middle{
+        text-align: center;
+      }
+      .footer-info-middle p{
+        text-align: left;
+      }
+      .google-map a{
+        align-items:center;
+        display: inline-block;
+        margin-right: 20px;
+      }
+      
+      .footer-info-right{
+        text-align: left;
+      }
+      .footer-info-right p{
+        text-align: left;
+      }
+      
+      .footer-bottom {
+        background-color: rgb(31, 30, 30);
+        display:flex;
+        justify-content: space-between;
+        padding: 1px;
+      }
+      .footer-bottom {
+        color: #fff;
+        text-align: right;
+      }
+      
+      .footer-bottom p {
+        margin: 15;
+        font-size: 14px;
+      }
